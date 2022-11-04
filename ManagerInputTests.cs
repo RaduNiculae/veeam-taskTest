@@ -1,12 +1,20 @@
-﻿using System;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using veeam_task;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace veeam_taskTests
+namespace veeam_task.Tests
 {
-    class ManagerInputTests
+    [TestClass()]
+    public class ManagerInputTests
     {
+        [TestMethod()]
+        public void ManagerInputTest()
+        {
+            Assert.Fail();
+        }
     }
 }
