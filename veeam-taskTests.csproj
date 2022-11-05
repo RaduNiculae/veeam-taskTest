@@ -131,8 +131,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="InputParserTests.cs" />
     <Compile Include="ManagerInputTests.cs" />
+    <Compile Include="ProcessLifetimeManagerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
